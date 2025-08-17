@@ -44,10 +44,13 @@
     .leaderboard-table tbody td { text-align: center !important; }
     .leaderboard-table tbody tr td:first-child:not([colspan]) { text-align: left !important; }
     .leaderboard-table tbody tr.group-open { background-color: #e8f5e9; }
-    .leaderboard-table tbody tr.group-close { background-color: #e3f2fd; }
+    .leaderboard-table tbody tr.group-close { background-color: #dbeafe; }
     .leaderboard-table tbody tr.group-open td,
     .leaderboard-table tbody tr.group-close td { text-align: center !important; }
     .leaderboard-table u { color: inherit; text-decoration-color: currentColor; }
+    /* Vertical divider between Model and the rest */
+    .leaderboard-table thead th:first-child,
+    .leaderboard-table tbody td:first-child { border-right: 2px solid #000 !important; }
   </style>
 </head>
 <body>
@@ -62,11 +65,6 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
 
 
     </div>
