@@ -40,9 +40,8 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
   <style>
-    .leaderboard-table th, .leaderboard-table td { text-align: center; }
-    .leaderboard-table thead tr:first-child th:first-child { text-align: left; }
-    .leaderboard-table tbody tr td:first-child:not([colspan]) { text-align: left; }
+    .leaderboard-table th, .leaderboard-table td { text-align: center !important; }
+    .leaderboard-table tbody tr td:first-child:not([colspan]) { text-align: left !important; }
     .leaderboard-table tbody tr.group-open { background-color: #e8f5e9; }
     .leaderboard-table tbody tr.group-close { background-color: #e3f2fd; }
   </style>
@@ -126,7 +125,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
+        <div class="content">
           <p class="has-text-centered">
             <img src="assets/class.png" style="width:92%" alt="Task taxonomy"/>
           </p>
@@ -151,7 +150,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Leaderboard</h2>
-        <div class="content has-text-justified">
+        <div class="content">
           <div class="table-container">
             <table class="table is-striped is-fullwidth is-hoverable leaderboard-table">
               <thead>
